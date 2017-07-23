@@ -1,3 +1,3 @@
 # Tech Solidarity NL
 
-Website hosted at [techsolidarity.nl](https://techsolidarity.nl/)
+Website hosted at [techsolidarity.nl](http://techsolidarity.nl/)
