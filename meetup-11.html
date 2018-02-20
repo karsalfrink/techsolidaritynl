@@ -36,6 +36,61 @@
       <div class="one-half column" style="margin-top: 10%">
         <h4><a href="/">Tech Solidarity NL</a> meetup #11</h4>
 
+        <p>After an introduction to Tech Solidarity we dive into one major way in which technology is abused in the interest of the few: the capture and trading of personal data. The EU is introducing a new law that attempts to regulate the trafficking in personal data and to reign in some of its worst practices. It is called GDPR, in the Netherlands it is implemented as the <a href="https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-nieuwe-europese-privacywetgeving/algemene-informatie-avg">&#8216;Algemene verordening gegevensbescherming&#8217; (AVG)</a>, and it is expected to have a considerable impact on the tech industry.</p>
+
+        <h5>Introduction to GDPR/AVG</h5>
+
+        <p>This night we have two speakers, the first of which is Bob Cordemeyer of <a href="https://www.cordemeyerslager.nl">Cordemeyer &amp; Slager Advocaten</a>. He provides a general overview of the GDPR/AVG which applies from May 25th. With regard to electronic communications and data protection, the EU has announced ePrivacy regulation which is expected in 2019.</p>
+
+        <p>The GDPR/AVG (we&#8217;ll refer to as &#8216;the regulation&#8217;) is about data processing. This may entail more then you&#8217;d expect, e.g. storing data is also considered processing. Processing is considered lawful if (granular) consent is provided by the data subject (individual). Another notable condition is when there are &#8216;legitimate interests&#8217;. And there are some exceptions, for example when it comes to fundamental rights.</p>
+
+        <p>Note that direct marketing is considered a legitimate interest (organisations need to be able to reach their customers), but only when it is closely linked to previous processing of personal information. And with the option to object to the processing. What about other individuals collecting data about you, say someone else tags you on Facebook? In that case too, the processor needs to have your consent.</p>
+
+        <p>Special categories of personal data, e.g. biometric data, can be processed but only under strict criteria. That is, explicit consent is given. Or when the subject is not (medically) able to give consent. Or in some cases when the data is collected by public organisations (like a foundation, association or any other not-for-profit body, or is necessary for reasons of public interest in the area of public health, et cetera).</p>
+
+        <p>Data subjects also have a number op rights, like the right of information, access, rectification, erasure, and portability (to take data with you from one to another organisation). This can be difficult to facilitate in existing systems and organisations. The next talk will go into providing these rights &#8216;by design&#8217;.</p>
+
+        <p>Organisations need to keep a register of the processing activities of personal data. Business tasks need to be described in relation to the processing of personal data (the purpose, duration, et cetera). For existing systems, an impact assessment is required, measures are to be taken, and monitored after implementation. A script needs to be ready in case of a data leak, in which case the supervisor authority (Autoriteit Persoonsgegevens in the Netherlands) needs to be notified within 72 hours. A Data Protection Officer (DPO) is required for public authorities, for high risk organisations (such as hospitals), and some other cases. The size of an organisation (say less than 250 persons) is to be taken into account when applying the regulation. </p>
+
+        <p>The new regulation requires awareness in the organisation and with stakeholders. It applies to the processing of personal data by a controller (deciding means and purposes of the processing) or a processor within the EU. As a non-EU organisation, if you offer services to clients in the EU, you need to comply with the the regulation as well. Even if the processing of personal data takes places outside the EU, but the processing of personal data takes place in the context of the activities of an establishment of a controller or a processor in the Union, the regulation applies. </p>
+
+        <p>The administrative fines for not complying with the regulation can be very high (max. 20 million, and for companies up to 4% of the total worldwide annual turnover of the preceding financial year). And you can be held liable by any person as a result of an infringement of the GDPR/AVG.</p>
+
+        <h5>Privacy by design</h5>
+
+        <p>For new systems and business processes, privacy by design is obligatory. This is the subject of the next talk by <a href="http://www.cs.ru.nl/~jhh/">Jaap-Henk Hoepman</a> of Privacy &amp; Identity Lab, Radboud University, Tilburg University and University of Groningen.</p>
+
+        <p>In his introduction, he notes that many laws and regulations are dependent on personal data, which allows for all sorts of personal data to be collected, &#8216;surveillance&#8217;-like. So one way of improving privacy is making less complex laws requiring less personal data.</p>
+
+        <p>Personal information can either be transferred (explicitly, when asked, or implicitly by observing your behaviour) or derived from other data about you.</p>
+
+        <p>One example is that an activity tracker (like a smart watch) measuring heart rate has actually been used as additional evidence in a case in de US. Did the heart rate of the accused increase at a certain time?</p>
+
+        <p>A way to counterbalance these developments is protecting privacy &#8216;by design&#8217;. It is a simple concept, to be practiced throughout the life cycle of technology, and continuously. It&#8217;s a quality attribute, much like security is (which is also much easier if done by design). </p>
+
+        <p>But how to do this? Privacy does not equal security or data minimisation. And there is a gap between engineers (who like to think in binary categories) and these legal aspects (who will always tell you &#8216;it depends&#8217;). So Jaap-Henk worked on translating legal norms to technical design requirements. Using these, you have a good chance of being compliant and probably include more protection.</p>
+
+        <p>This privacy by design strategy considers systems simply as a database of attributes about individuals. One can then:</p>
+
+        <ul>
+        <li>minimise data (by not processesing about all individuals, or not all attributes);</li>
+        <li>separate these attributes, to prevent correlation (by distributing the processing or by processing parts independently);</li>
+        <li>use abstracted information, i.e. limit the detail in which personal information is processed (by finding correlations instead of the data itself, by allocating data in common categories, or by adding noise);</li>
+        <li>and hide or secure (access to) data.</li>
+        </ul>
+
+        <p>As noted in the previous talk, the data controller must enforce and demonstrate that the data processing is happening in a privacy friendly way. Considering the data subject, the design strategy is to inform the data subject about what data is processed about them and control the data being processed. Both will be very hard when these aspects were not considered by design.</p>
+
+        <p>&#8216;Informing&#8217; here entails supplying resources about the processing (including policies, processes and potential risks), alerting data subjects to new information about processing of their personal data in a timely manner, and providing that information in a concise and understandable form. So a big files of legal text you have to accept will not do.</p>
+
+        <p>Finally Jaap-Henk introduces the broader concept of &#8216;honest design&#8217;: systems that work as advertised and don&#8217;t do harm. This new legislation may create a more level playing field for the (existing) non-compliant companies and the (new) companies in the same market that are compliant. </p>
+
+        <p>Some organisations now depend on business models around personal data, which may be the elephant in the room here. Even big non-EU social networks will have to comply some way or the other. One big problem is that there are not many alternatives to systems using these exploitative business models.</p>
+
+        <hr>
+
+        <p>Original announcement:</p>
+
         <h5>Our next meetup happens Monday, February 5 at <a href="https://www.sensorlab.nl">Sensor Lab</a> from 19:00&#8211;21:00 (doors open 18:30) and will be about <strong>data protection by design</strong>. Read on below for details.</h5>
 
         <p>On May 25 of this year a new European data protection law will come into effect: the General Data Protection Regulations (GDPR). In the Netherlands, GDPR is implemented as the <a href="https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/avg-nieuwe-europese-privacywetgeving">&#8216;Algemene verordening gegevensbescherming&#8217; (AVG)</a>. The law applies to anyone controlling or processing personal data of EU citizens. It requires you have a lawful basis for processing personal data. It extends a number of rights to data subjects—those whose personal data is processed. And it insists on a number of practices, including data protection by design.</p>
