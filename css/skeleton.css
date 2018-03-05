@@ -171,6 +171,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
+  font-family: 'Work Sans', sans-serif;
   display: inline-block;
   height: 38px;
   padding: 0 30px;
