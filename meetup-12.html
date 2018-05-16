@@ -34,7 +34,112 @@
   <div class="container">
     <div class="row">
       <div class="one-half column" style="margin-top: 10%">
+
         <h4><a href="/">Tech Solidarity NL</a> meetup #12</h4>
+
+        <p>The theme tonight is ethical stacks. We have Sebastian Kersten as our guest who is, as CTO at De Correspondent, responsible for their strategy and to build their technical stack accordingly.
+
+        <p>Kars introduces Tech Solidarity first, talking on the grassroot nature and inviting everyone to get involved. Ideally we grow into a like-minded collective that is able to affect change.</p>
+
+
+        <h5>Conversation</h5>
+
+        <p>Next Kars and Sebastian have a conversation on the choices De Correspondent has made, what the experiences are so far and what is still on the list to improve.</p>
+
+        <p>Sebastian starts by looking back. As a new initiative built from the ground up with a crowdfunding campaign, the resources were limited. It started with a couple of wireframes made by Sebastian. What to build exactly was kind of unclear, they just started. In the first versions a lot of standard products were combined: Shopify, Vimeo, Google Analytics, Soundcloud, etc.<br>
+        There was no time to 'design' the  systems needed, they just started using these standard products. Later they found that 'better' alternatives just can't keep up with these standard products. It forced them to ask the question: what are the things that they want to know? Instead of just measuring everything that can be measured. So in the end it may be a blessing in disguise not to have all information on all users.</p>
+
+        <p>At this moment about eight people are developing technology at De Correspondent. As they are doing everything by themselves, capacity is still limited. So building the ideal stack is hard. </p>
+
+        <p>The emphasis on privacy was stimulated by the presence of the writers of the book on privacy [https://kiosk.decorrespondent.nl/products/je-hebt-wel-iets-te-verbergen-boek]. The book triggered the discussion.<br>
+        With the plans for international expansion they need to think about how, for instance, VAT differs for different countries. It forced the information they need to ask from users. That, again, made them think: what do we need to know and what do we want to know?</p>
+
+        <p>What does the stack look like now? An important decision was to remove Google Analytics and replace it with Piwik, a system that can be self-hosted so the data remains yours. Piwik was recently renamed to <a href="http"//Matomo.org">Matomo</a>.<br>
+        Another important piece of the stack are embedded services like video and audio. These are presented at first without trackers, and it is up to the users to allow these to actually see the content.<br>
+        <a href="http://newrelic.com">Newrelic.com</a> is still used for monitoring the infrastructure, as a viable alternative is still to be found.</p>
+
+        <p>An important rule is to only use third party services that do tracking (like fonts) only when absolutely necessary. Self-hosting is usually the solution.<br>
+        You can have traffic issues when hosting servers yourself. For example Matomo had some trouble scaling up. It's a lesson learned and it once again triggers a discussion of how much needs to be tracked. It is a basic question that trickles down in the organisation. The defining driver is the company's philosophy, which is leading, even if it leads to technological limitations.</p>
+
+        <p>The possibility of destroying one's own data by an individual user is the ultimate goal. It's on the list to find out. The principle is that everything should be opt in. So they discern:</p>
+
+        <ul>
+        <li>core data - logged in or not</li>
+        <li>legal data - a necessary thing</li>
+        <li>all the rest should be opt in</li>
+        </ul>
+        
+        <p>This leads to rethinking the way you communicate with your users. What does it mean if you don’t use tracking cookies? Can it only be set on a device level, then on another device the user needs to set the cookie again.</p>
+
+        <p>De Correspondent needs stuff from the internet like from YouTube. It's hard to find the original maker some time, and it takes too much time for their organisation.</p>
+
+        <p>A wish for the future is a system that the writers own, and in which readers can have direct contact with the content makers. Moving to the US might help for scale and making some of the wishlist reality.</p>
+
+        <p>So a year after starting with this process of improving the stack, how did it change the business? Are the costs increased? Well yes, but it is a calculated extra cost and worth it.</p>
+
+        <p>There is still a lot of legacy built into this version. The concerns mentioned above were not so much on the radar back then. They just needed to have their services up and running in order to go live swiftly.<br>
+        They still use Google Drive a lot. Building an editorial system yourself would take a lot of effort, as standard open source is not suited for the work they do. </p>
+
+        <h5>New territories</h5>
+
+        <p>The developments in the US obviously effect the plans on moving there. There is a terrorist view on the world now. What will happen when someone that wants to hurt us or our organisation? How to protect your data?<br>
+        Our culture here is built around US culture. Now we have a president/government there that shocks liberals. What impact will they have on treating personal data?</p>
+
+        <p>The media is a target in US, so the systems should be well designed from the start. How to be sure not to be a collector of data, only opt-in? It is rather impossible, but they have to try.<br>
+        Scaling (more subscribers/readers) is needed to be able to take a serious step. It is needed so they can allocate more resources to implementation and development, and thus a more ethical stack. Scaling in terms of content is not really the issue. <br>
+        The growth strategy is linear, not an exponential. Being a knowledge sharing network is key. So the organisation is still very small in scale, and the backlog of wishes and features is very long.</p>
+
+        <h5>What are new business models? Like speakers events?</h5>
+
+        <p>There are already different models operating, like publishing books. All for the content. Speaking was stepped down a bit, as it cannibalised on the core activities.</p>
+
+        <h5>What about GDPR?</h5>
+
+        <p>He thinks it is kind of annoying, as there is not really a clear view what it is. It feels like another cookie wall.</p> 
+
+        <p>How to treat it as a small organisation?<br>
+        They are too small to report on all the things GDPR requires, but what is needed? They are already taking measures, but driven by their own philosophy. It's hard to predict if these investments pay off.</p>      
+
+        <h5>What about Jay Rosen</h5>
+
+        <p>Sebastian was/is a fan; Jay dedicated a whole year of students and research to research the feasibility of De Correspondent making way in States.</p>
+
+        <p>Is the US adventure influencing the way De Correspondent works?<br>
+        They don&#8217;t think so. They are learning from it, like how to approach different target groups.</p>
+
+        <h5>What is the vision on what data De Correspondent wants to have?</h5>
+
+        <p>About members: only the minimal data needed for administrative reasons, tax, etc. No special wishes.
+        And they're not interested in data about anonymous visitors.</p>
+
+        <p>Opening up the data they have on consumers, to the customer themselves, would be something he loves to do.</p>
+
+        <h5>How high is privacy on the internal agenda?</h5>
+
+        <p>It is part of the culture. For some of the teams at least. Developers are more keen on that.<br>
+        Sebastian as a CTO has a role here. It's easier to keep defending it, because it is in the manifesto now. And as he is CEO (ad interim) now, he has even more influence.</p>
+
+        <h5>Did these developments attrack more subscribers?</h5>
+
+        <p>In general people don&#8217;t really care. Unless you really screw up. It did not have a clear positive contribution.</p>
+
+        <h5>Sharing via Facebook, can you get rid of that option?</h5>
+
+        <p>It is to big to get rid of it. About 60% t0 70% of sales is via Facebook. </p>
+
+        <p>Data is growing, so you should have automated systems and the best tools, like Google&#8217;s. Others are using them, so we need to keep up. </p>
+
+        <p>In general on data, you need to sometimes fight fire with fire. De Correspondent can not be only focusing on data protection. It needs to balance with the goals to reach out to an audience. Effectiveness versus transparency.</p>
+
+        <h5>Interactive part</h5>
+
+        <p>After the conversation we form three groups to dive a bit deeper and see what can be learned from other initiatives and how The Correspondent can keep up with competitors while remaining true to their principles.</p>
+
+        <p>We close the evening with some drinks and looking forward to the next meetup!</p>
+
+        <hr></hr>
+
+        <p>Original announcement:</p>
 
         <h5>Our next meetup happens Monday, April 9 at <a href="https://www.sensorlab.nl">Sensor Lab</a> from 19:00&#8211;21:00 (doors open 18:30) and is about <strong>ethical stacks</strong>.</h5>
 
@@ -45,6 +150,7 @@
         <p>We meet at <a href="https://www.sensorlab.nl">Sensor Lab</a> in Utrecht on Monday, April 9. We start at 19:00 and wrap up around 21:00. (Doors open 18:30.) Admission fee is 5 euros payable at the door.</p>
 
         <p>To RSVP, send an email to <a href="&#109;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#x69;&#x6e;&#102;&#x25;&#x36;&#x46;&#x40;&#116;&#101;&#37;&#54;&#51;&#37;&#54;&#56;&#x73;&#111;&#108;&#x69;&#x64;&#x61;&#x25;&#55;&#x32;&#x25;&#54;&#57;&#37;&#x37;&#52;&#x79;&#x2e;&#x25;&#54;&#x45;&#108;">&#x69;&#x6e;&#102;&#x6f;&#x40;&#x74;&#x65;&#x63;&#x68;&#115;&#x6f;&#x6c;&#105;&#x64;&#x61;&#114;&#x69;&#116;&#x79;&#46;&#110;&#x6c;</a>. Hope to see you there!</p>
+
       </div>
     </div>
   </div>
