@@ -18,4 +18,9 @@ p.intro {
 
 body#home h4:first-of-type {
 	display:none;
+/* Override Skeleton's list styling */
+
+ol, ul {
+   list-style-position: outside;
+   padding-left: 1.5rem;
 }
