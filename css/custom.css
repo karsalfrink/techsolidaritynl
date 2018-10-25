@@ -17,7 +17,9 @@ p.intro {
 /* Hide header on homepage*/
 
 body#home h4:first-of-type {
-	display:none;
+	display:none; 
+} 
+
 /* Override Skeleton's list styling */
 
 ol, ul {
